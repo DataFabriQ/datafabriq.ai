@@ -25,24 +25,24 @@ function App({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover" />
 
-        <title>Revolicon - Beautifully Crafted Open Source Icons</title>
-        <meta name="title" content="Revolicon - Beautifully Crafted Open Source Icons" />
-        <meta name="description" content="Revolicon is an open-source icon library. It is designed for consistency and accessibility. The icons are carefully crafted for you to work seamlessly." />
-        <meta name="keywords" content="Revolicon, Font Icon, Web Icon, Icons, Icon, SVG Icon, SVG, Font, Revolution" />
+        <title>DatafabriQ - Enables the value of data</title>
+        <meta name="title" content="DatafabriQ - Enables the value of data" />
+        <meta name="description" content="DatafabriQ - Enables the value of data" />
+        <meta name="keywords" content="DatafabriQ - Enables the value of data" />
 
-        <meta property="og:site_name" content="Revolicon" />
+        <meta property="og:site_name" content="DatafabriQ" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://revolicon.com/" />
-        <meta property="og:title" content="Revolicon - Beautifully Crafted Open Source Icons" />
-        <meta property="og:description" content="Revolicon is an open-source icon library. It is designed for consistency and accessibility. The icons are carefully crafted for you to work seamlessly." />
-        <meta property="og:image" content="/thumbnail.png" />
+        <meta property="og:url" content="https://datafabriq.ai/" />
+        <meta property="og:title" content="DatafabriQ - Enables the value of data" />
+        <meta property="og:description" content="DatafabriQ - Enables the value of data" />
+        <meta property="og:image" content="/logo.svg" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://revolicon.com/" />
-        <meta property="twitter:title" content="Revolicon - Beautifully Crafted Open Source Icons" />
-        <meta property="twitter:description" content="Revolicon is an open-source icon library. It is designed for consistency and accessibility. The icons are carefully crafted for you to work seamlessly." />
-        <meta property="twitter:image" content="/thumbnail.png" />
+        <meta property="twitter:url" content="https://datafabriq.ai/" />
+        <meta property="twitter:title" content="DatafabriQ - Enables the value of data" />
+        <meta property="twitter:description" content="DatafabriQ - Enables the value of data" />
+        <meta property="twitter:image" content="/logo.svg" />
       </Head>
       <Component {...pageProps} />
     </>
