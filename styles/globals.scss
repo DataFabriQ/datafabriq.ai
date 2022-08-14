@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+// globals.css
+@font-face {
+  font-family: "DFL";
+  font-style: normal;
+  font-weight: 300;
+  font-display: optional;
+  src: url("/fonts/DFLogoFont.woff2") format("woff2");
+}
+
 html {
   @apply min-h-full h-full;
 }
@@ -33,6 +42,7 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 1000;
+  font-family: DFL !important;
 }

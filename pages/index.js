@@ -34,12 +34,12 @@ function ContentLogo() {
       {/* display logo.svg */}
       <Image
         src="/logo.svg"
-        width={200}
-        height={200}
-        className="rounded-full"
+        width={250}
+        height={250}
         alt="Datafabriq logo"
       />
-      <h1 className="text-white ">DatafabriQ</h1>
+      {/* span with a Q in green */}
+      <h1 className="text-white ">Datafabri<span>Q</span></h1>
     </div>
   )
 }
@@ -75,23 +75,25 @@ function ContentSocial() {
 function Creators() {
   return (
     <div
-      className="flex items-center gap-3"
+      className="items-center gap-3"
       data-aos="fade-up"
       data-aos-delay={1700}
       data-aos-anchor="body"
     >
       <CreatorsItem link="https://www.linkedin.com/in/diegocaceres-mba/" badge="CEO & Founder" name="Diego Caceres"/>
-      <span className="text-white text-opacity-25">✦</span>
+      <span className="text-white text-opacity-50">✦</span>
       <CreatorsItem link="https://www.linkedin.com/in/yannicklehr/" badge="COO" name="Yannick Aaron Lehr"/>
+      <span className="text-white text-opacity-50">✦</span>
+      <CreatorsItem link="https://www.linkedin.com/in/yannik-suhre-732a041a9/" badge="CTO" name="Yannik Suhre"/>
     </div>
   )
 }
 function CreatorsItem({ name, link, badge }) {
   return (
     <div className="flex gap-1">
-      <span className="hidden sm:inline text-white text-opacity-25">{badge}</span>
+      <span className="hidden sm:inline text-white text-opacity-50">{badge}</span>
       <a
-        className="text-white text-opacity-50 hover:text-opacity-100 transition-colors duration-200"
+        className="text-white text-opacity-70 hover:text-opacity-100 transition-colors duration-200"
         href={link}
         target="_blank"
         rel="noreferrer"
